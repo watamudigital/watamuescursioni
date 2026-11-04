@@ -1,0 +1,16 @@
+/* Four-language navigation, responsive without changing the v0.2 forest/gold palette. */
+.locale-switcher{display:flex;align-items:center;flex-shrink:0;padding:3px;gap:2px;border:1px solid rgba(255,255,255,.28);border-radius:9px;background:rgba(255,255,255,.07)}
+.locale-switcher a{display:flex;align-items:center;justify-content:center;padding:8px 8px;min-width:30px;border-radius:6px;color:#e0e9db;font-size:10px;letter-spacing:.035em;font-weight:800;transition:background .15s}
+.locale-switcher a[aria-current="page"]{background:#d2a45d;color:#14251e}
+.locale-switcher a:not([aria-current="page"]):hover{background:rgba(255,255,255,.15)}
+.locale-dropdown{display:none;position:relative;z-index:45}
+.locale-dropdown summary{list-style:none;cursor:pointer;border:1px solid rgba(255,255,255,.3);border-radius:7px;color:#f4f0e8;font-size:12px;font-weight:800;padding:10px 10px;white-space:nowrap}
+.locale-dropdown summary::-webkit-details-marker{display:none}
+.locale-dropdown-list{position:absolute;right:0;top:calc(100% + 8px);min-width:150px;display:flex;flex-direction:column;padding:6px;background:#f8f4ea;color:#18251e;border:1px solid #d8d2bd;border-radius:9px;box-shadow:0 18px 30px rgba(10,28,18,.24)}
+.locale-dropdown-list a{padding:10px 12px;font-size:13px;border-radius:5px}
+.locale-dropdown-list a[aria-current="page"],.locale-dropdown-list a:hover{background:#dfd3b5}
+/* European translations can be longer; fit at laptop widths. */
+@media(max-width:1180px){.nav{gap:15px}.nav-links{gap:13px}.site-header .nav-actions .btn{font-size:11px;padding:12px 11px}.locale-switcher a{padding:8px 5px;min-width:27px}}
+@media(max-width:1030px){.nav{min-height:70px}.site-header .menu-toggle{display:block}.site-header .nav-links{display:none;position:absolute;top:70px;left:0;right:0;background:#1d3527;padding:25px 6%;box-shadow:0 15px 20px #0a2b2d14;border-bottom:1px solid rgba(255,255,255,.14);flex-direction:column;align-items:flex-start}.site-header .nav-links.open{display:flex}.site-header .nav-links a{color:#f5f0e3}.site-header .nav-actions{margin-left:auto}.site-header .nav-actions .btn{display:none}}
+@media(max-width:600px){.locale-switcher{display:none}.locale-dropdown{display:block}}
+@media(max-width:360px){.nav{gap:8px}.logo{gap:7px}.logo-type{font-size:12px}.logo-symbol{width:31px;height:31px}.locale-dropdown summary{padding:8px 7px}.menu-toggle{font-size:26px}}

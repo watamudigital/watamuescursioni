@@ -1,0 +1,3 @@
+# Demo: non indicizzare fino a verifica di operatori, contatti, prezzi e pagine legali.
+User-agent: *
+Disallow: /
