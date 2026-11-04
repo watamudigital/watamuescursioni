@@ -1,0 +1,5 @@
+# Sensitive infrastructure changes require an owner review.
+/.github/ @phate6872
+/vercel.json @phate6872
+/robots.txt @phate6872
+/scripts/ @phate6872
