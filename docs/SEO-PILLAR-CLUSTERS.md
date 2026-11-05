@@ -67,3 +67,14 @@ Su Google Search Console: impression/click/CTR/posizione per cluster e URL, pagi
 - UNESCO Gedi: https://whc.unesco.org/en/list/1720
 - Google SEO: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
 - Google spam: https://developers.google.com/search/docs/essentials/spam-policies
+
+## Ruoli dei domini della rete Watamu Digital
+
+- **watamuescursioni.com**: riferimento editoriale e informativo principalmente per le ricerche italiane su più esperienze a Watamu; mantiene pagine dedicate quando la loro intenzione di ricerca è realmente distinta.
+- **snorkelingwatamu.com**: approfondimento verticale sullo snorkeling e sulle attività del parco marino, con contenuti specifici e non duplicati.
+- **watamu.tours**: eventuale marketplace di operatori reali, in futuro; evitare di copiarvi integralmente guide e pagine dello stesso intento.
+- **Juma Safari**: identità e servizi dell'operatore da verificare, non un clone delle guide generiche.
+
+Evitare doorway e reti di link artificiali tra domini di proprietà comune. Eventuali riferimenti tra siti devono essere **contestuali e utili al lettore**, con testi distinti, fonti proprie e controllo dell'intento. Se due pagine hanno sostanzialmente lo stesso contenuto, scegliere un URL principale e consolidare o differenziare il materiale.
+
+Nota: la mappa non autorizza il lancio commerciale dei siti e non sostituisce consenso, autorizzazioni o altri requisiti.
