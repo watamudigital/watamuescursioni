@@ -1,0 +1,24 @@
+/* Watamu Escursioni — editorial content cluster pages; inherits brand palette */
+.guide-hero{background:radial-gradient(circle at 90% 30%,rgba(210,164,93,.2),transparent 40%),linear-gradient(120deg,#14251e,#284631);padding:65px 0 70px;color:#f9f4e8}
+.guide-hero .eyebrow{color:#e4ba81}.guide-breadcrumb{font-size:12px;line-height:1.6;margin-bottom:28px;color:#e2e1d2}.guide-breadcrumb a{text-decoration:underline;text-underline-offset:4px}
+.guide-hero h1{font-size:clamp(43px,5.8vw,76px);line-height:1.08;letter-spacing:-.052em;max-width:950px;margin:15px 0 25px;font-weight:500}
+.guide-hero p{max-width:760px;color:#e0e6d9;font-size:17px;line-height:1.8}
+.guide-hero .guide-note{font-size:12px;color:#e2c99e;margin-top:22px}
+.guide-columns{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:clamp(28px,6vw,88px);align-items:start;padding-top:58px;padding-bottom:88px}
+.guide-content{min-width:0}.guide-lede{border-left:3px solid #c89a5b;padding-left:21px;font-size:17px;color:#3a5341;margin:0 0 40px}
+.guide-block{padding:0 0 36px;margin-bottom:36px;border-bottom:1px solid var(--line);scroll-margin-top:110px}.guide-block h2,.guide-faq h2{font-size:clamp(27px,3vw,38px);line-height:1.17;margin:0 0 20px}
+.guide-block p,.guide-faq p{color:var(--ink2);font-size:15px;line-height:1.85;margin:0 0 17px}
+.guide-block a,.guide-faq a{color:#256243;text-decoration:underline;text-underline-offset:3px;font-weight:700}
+.guide-checklist{list-style:none;padding:0;margin:18px 0;display:grid;gap:12px}.guide-checklist li{position:relative;padding-left:28px;line-height:1.7;color:var(--ink2);font-size:14px}
+.guide-checklist li:before{content:"✳";position:absolute;left:0;color:#ba844c}.guide-checklist a{color:#256243;text-decoration:underline}
+.guide-sidebar{position:sticky;top:112px}.guide-panel{background:#fffdf7;border:1px solid #e6dfd0;border-radius:13px;padding:24px;margin-bottom:16px}
+.guide-panel h2{font:600 19px 'Fraunces',Georgia,serif;margin-bottom:15px}.guide-panel ol{padding-left:21px;margin:0}.guide-panel li{padding:5px 0;font-size:13px;line-height:1.6}
+.guide-panel a:hover,.guide-related a:hover{text-decoration:underline}.guide-panel .side-note{font-size:12px;line-height:1.7;color:var(--muted)}
+.guide-faq{padding:24px 0}.guide-faq details{border:1px solid #e8e0d0;background:#fffdf8;border-radius:9px;margin:10px 0;padding:0 18px}
+.guide-faq summary{font-size:15px;font-weight:700;cursor:pointer;padding:19px 0}.guide-faq details p{padding-bottom:8px}
+.guide-sources{margin:32px 0 48px;padding:22px 24px;background:#efeae0;border-radius:10px}.guide-sources h2{font-size:19px}.guide-sources p{font-size:13px;margin:0 0 6px}.guide-sources a{text-decoration:underline;color:#245440}
+.guide-related-wrap{background:#e9e4d8;padding:58px 0 72px}.guide-related-wrap h2{font-size:clamp(29px,3.5vw,42px);margin:12px 0 28px}
+.guide-related{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.guide-related a{background:#fffdf7;border:1px solid #e1d7c5;border-radius:10px;padding:22px 19px;min-height:110px;display:flex;align-items:center;font-weight:700;line-height:1.45;font-size:14px}
+.guide-cta{background:#14251e;padding:48px 0;color:#f7f1e2}.guide-cta .wrap{display:flex;gap:25px;align-items:center;justify-content:space-between}.guide-cta h2{font-size:clamp(26px,3vw,38px);margin:0 0 8px}.guide-cta p{font-size:13px;color:#cbd7c9;margin:0;max-width:680px}.guide-cta .btn{background:#d2a45d;border-color:#d2a45d;color:#1c3024}
+@media(max-width:900px){.guide-columns{grid-template-columns:1fr}.guide-sidebar{position:static}.guide-related{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:590px){.guide-hero{padding:42px 0 48px}.guide-hero p{font-size:15px}.guide-columns{padding-top:32px;padding-bottom:55px}.guide-related{grid-template-columns:1fr}.guide-related a{min-height:70px}.guide-cta .wrap{flex-direction:column;align-items:flex-start}}

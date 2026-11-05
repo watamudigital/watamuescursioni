@@ -15,5 +15,7 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           persist-credentials: false
-      - name: Validate demo site and repository
-        run: python3 scripts/check_public_site.py
+      - name: Validate site and SEO network
+        run: |
+          python3 scripts/check_public_site.py
+          python3 scripts/check_seo_network.py
